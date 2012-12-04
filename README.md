@@ -5,6 +5,7 @@ vim syntax support for [ducttape](https://github.com/jhclark/ducttape) workflow 
 ## Installation
 - Install [vundle](https://github.com/gmarik/vundle)
 - Add these lines to your vimrc:
+
 ```
 " disable filetype detection
 filetype off
@@ -15,5 +16,6 @@ Bundle 'vchahun/vim-ducttape'
 syntax on
 " re-enable filetype detection
 filetype plugin indent on
-```
-- Run the ```:BundleInstall``` command
+``` 
+
+- Run the `:BundleInstall` command
